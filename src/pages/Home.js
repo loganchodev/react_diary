@@ -4,7 +4,12 @@ const Home = () => {
 
     return (
         <div>
-            <Button />
+            <Button
+                text={"버튼 텍스트"}
+                onClick={()=>{
+                    alert("hi");
+                }}
+            />
         </div>
     );
 };
